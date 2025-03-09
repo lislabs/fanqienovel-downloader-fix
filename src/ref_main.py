@@ -265,7 +265,7 @@ def down_text(it, mod=1):
     while retry_count < max_retries:
         try:
             # 使用新API获取内容
-            api_url = f"http://apifq.jingluo.love/content?item_id={it}"
+            api_url = f"http://rehaofan.jingluo.love/content?item_id={it}"
             response = network_manager.make_request(api_url)
             data = response.json()
             
